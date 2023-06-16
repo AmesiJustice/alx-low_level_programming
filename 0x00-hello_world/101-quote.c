@@ -9,5 +9,5 @@ int main(void)
 	char D_Qt[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 
 	puts(D_Qt);
-	return (0);
+	return (1);
 }
