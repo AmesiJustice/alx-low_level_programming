@@ -13,8 +13,11 @@ int main(void)
 	while (sing_digitNum <= 9)
 	{
 		putchar('0' + sing_digitNum);
-		putchar(comma);
-		putchar(' ');
+		if (sing_digitNum != 9)
+		{
+			putchar(comma);
+			putchar(' ');
+		}
 		sing_digitNum++;
 	}
 	putchar('\n');
