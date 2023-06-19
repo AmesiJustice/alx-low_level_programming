@@ -13,7 +13,7 @@ int main(void)
 
 	while (combo1 <= 8)
 	{
-		combo2 = combo1 +1;
+		combo2 = combo1 + 1;
 
 		while (combo2 <= 9)
 		{
